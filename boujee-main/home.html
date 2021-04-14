@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Boujee Hotel & Resort </title>
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <body>
+
+        <!--Header Section-->
+        <header>
+                <img src = "boujeehotel.png" onclick = "home()" class = "head-pic">
+        </header>
+
+        <section class = "head-links">
+        <ul class = "head-list">
+            <li><a href = "suites.html"><strong>Suites</strong></a></li>
+            <li><a href = "entertainment.html"><strong>Entertainment</strong></a></li>
+            <li><a href = "restaurants.html"><strong>Restaurants</strong></a></li>
+            <li><a href = "pool_spa.html"><strong>Pools & Spa</strong></a></li>
+            <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+            <li><a href="about.html"><strong>About Us</strong></a></li>
+        </ul>
+        </section>
+
+        <!--Homepage Text & Image in CSS-->
+        <section class = "home-img">
+            <h1 class = "home-title"> Suites Available Today </h1>
+            <h2 class = "home-title2"><i> Weekend Deals For A Limited Time Only </i></h2>
+        </section>
+
+        <!-- Suite section of hompage -->
+        <section class = "home-suites">
+            <h1 class = "suite-title"> Stay in a Suite</h1>
+            <h2 class = "suite-sub"><i> Enjoy a stay in one of our 5 star rated luxurious rooms </i></h2>
+
+            <figure class = "suitehome-img">
+                <img src = "suitehome.jpg">
+                <h2> Try out our spacious suites with separate living areas </h2>
+                <p>LUXURY KING SUITE | 1500 FT² | 1 KING BED</p>
+                <p>Stretch out in an oversized, pillow-top king bed, entertain in your 
+                <br>distinct living room, or soak in your oversized tub. Choose a room 
+                <br>with a view to enjoy the city lights or the ocean view.</p>
+                <button type="button" onclick = "bookClick()" class=""><strong>BOOK A ROOM</strong></button>
+            </figure>
+        </section>
+
+        <!-- Entertainment/Restaurant Section of homepage -->
+        <section class = "home-activities">
+            <h1>Plan a Night Out</h1>
+            <h2><i>Search through the many amenities we have to offer!</i></h2>
+
+            <figure class = "home-ent-rest-img">
+                <img src = "home_ent1.jpg">
+                <figcaption class = "button">
+                    <p>Check out our entertainment options</p>
+                    <a href = "entertainment.html" class = "click-button">Learn More</a>
+                </figcaption>
+            </figure>
+
+
+            <figure class = "home-ent-rest-img">
+                <img src = "home_rest1.jpg">
+                <figcaption class = "button">
+                    <p>Reserve a table at one of our fine restaurants</p>
+                    <a href = "restaurants.html" class = "click-button">Learn More</a>
+                </figcaption>
+            </figure>
+
+            <figure class = "home-ent-rest-img">
+                <img src = "home_pool1.jpg">
+                <figcaption class = "button">
+                    <p>Enjoy a night on our rooftop pool</p>
+                    <a href = "pool_spa.html" class = "click-button">Learn More</a>
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <!--Footer Section-->
+        <footer>
+            <div class = "wrapper">
+                <ul>
+                    <li><button onclick="topFunction()" id="myBtn" title="Go to top">Go Back To Top</button></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+    </body>
+</html>

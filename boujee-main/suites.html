@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Boujee Hotel & Resort </title>
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <body>
+
+        <!--Header Section-->
+        <header>
+                <img src = "boujeehotel.png" onclick = "home()" class = "head-pic">
+        </header>
+
+        <section class = "head-links">
+        <ul class = "head-list">
+            <li><a href = "suites.html"><strong>Suites</strong></a></li>
+            <li><a href = "entertainment.html"><strong>Entertainment</strong></a></li>
+            <li><a href = "restaurants.html"><strong>Restaurants</strong></a></li>
+            <li><a href = "pool_spa.html"><strong>Pools & Spa</strong></a></li>
+            <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+            <li><a href="about.html"><strong>About Us</strong></a></li>
+        </ul>
+        </section>
+
+        <!-- Image and book room selector -->
+        <div class = "room-select">
+        <section class = "book-room">
+            <h1 class = "book-title">Book A Room</h1>
+            <section class="book-suite">
+                <h1>DATES</h1>
+                <li><label><input type="text" name="check_in" placeholder="Check In" onfocus="(this.type='date')" onblur="(this.type='text')" attribute="date_select" id="entry" required>
+                     <br><input type="text" name="check_out" placeholder="Check Out" onfocus="(this.type='date')" onblur="(this.type='text')" attribute="date_select" id="check_out" required></label></li>
+                <li><label for="guests"><h1>GUESTS</h1></label>
+                <select name="guests" id="entry">
+                    <option value="1guest">1 Guest</option>
+                    <option value="2guest">2 Guests</option>
+                    <option value="3guest">3 Guests</option>
+                    <option value="4guest">4 Guests</option>
+                </select></li>
+                <li><button type="submit" class="submit_button">FIND ROOMS</button></li>
+            </section>
+        </section>
+        </div>
+
+        <section class = "suites-desc">
+            
+            <figure class = "suite1">
+                <img src = "suite1.jpg">
+                <h2> King Suite </h2>
+                <p>LUXURY KING SUITE | 1500 FT² | 1 KING BED</p>
+                <p id = "under">With 1,500 square feet the King Suite is the perfect retreat. Enjoy a restful night 
+                    <br>of sleep in a private master bedroom with one king bed. Entertain guests in the sunken living 
+                    <br>room with a wet bar and a formal dining table. Use the convenient sofa sleeper for an extra 
+                    <br>sleeping area. Enjoy the jetted tub and separate shower in the 170-square-foot bathroom. The 
+                    <br>powder room and vanity with makeup mirror offers plenty of extra space for getting ready. Use 
+                    <br>the dedicated work desk when business matters need your attention. Remote-controlled Roman 
+                    <br>shades and curtains keep your suite darkened to your preference.</p>
+            </figure>
+
+            <figure class = "suite2">
+                <img src = "suite2.jpg">
+                <h2> Two Queen Suite </h2>
+                <p>LUXURY QUEEN SUITE | 750 FT² | 2 QUEEN BEDS</p>
+                <p>With 750 square feet, relax in a Luxury Two Queens. Sink into the plush comfort of two pillow-top 
+                    <br>queen beds. A sunken living room and a dining area offers plenty of space. The spa experience 
+                    <br>isn’t far with an all-marble bathroom. Enjoy a soak in the Roman tub or separate glass-enclosed 
+                    <br>shower. The vanity and makeup mirror provide an additional space for getting ready. Business 
+                    <br>needs are kept organized with a dedicated work desk.</p>
+                
+            </figure>
+
+
+        </section>
+
+        <!--Footer Section-->
+        <footer>
+            <div class = "wrapper">
+                <ul>
+                    <li><button onclick="topFunction()" id="myBtn" title="Go to top">Go Back To Top</button></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
